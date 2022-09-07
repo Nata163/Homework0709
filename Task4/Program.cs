@@ -1,10 +1,10 @@
 ﻿// программа, которая принимает на вход число N и выдает таблицу кубов чисел от 1 до N с помощью массива
 
-int[] GetCubeNumbers(int number)
+int[] GetCubeNumbers(int num)
 {
-    int[] cubeNumbers = new int[number];
+    int[] cubeNumbers = new int[num];
 
-    for (int i = 1; i <= number ; i++)
+    for (int i = 1; i <= num ; i++)
     {
         cubeNumbers[i-1] = i * i * i;
     }
